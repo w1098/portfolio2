@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
+.main1 {
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    background-color: rgb(179, 75, 15);
+    width: 115px;
+}
+
+ul {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.link-header {
+   text-decoration: none;
+   font-size: 37px;
+   color: rgba(0, 0, 0, 0.514);
+   border: 2px dotted gray;
+   border-radius: 10px;
+   padding: 4px;
+}
+
+header {
+    padding: 10px;
+    border-bottom: 5px solid #000000;
+}
+
+.link-header:hover {
+    background-image: linear-gradient(#dd2654 0%, #000000 88.54%, #dd0bc1 100%);
+    color: aliceblue;
+    transition: all 1s;
+}
